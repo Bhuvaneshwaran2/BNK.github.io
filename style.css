@@ -1,0 +1,12 @@
+
+:root{--b:#772432;--bl:#004165;--g:#F2DF74;}
+*{box-sizing:border-box}body{margin:0;font-family:Arial;background:linear-gradient(135deg,var(--bl),var(--b));color:#fff}
+section{padding:80px 20px;text-align:center}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center}
+h1{font-size:4rem} h2{font-size:2rem}
+#ribbon{height:18px;background:var(--g);width:70%;margin:30px auto;transition:1s}
+button,.btn{background:var(--g);padding:15px 30px;border:none;border-radius:30px;color:#000;text-decoration:none;font-weight:bold}
+.timeline div,.card{background:rgba(255,255,255,.12);margin:10px;padding:15px;border-radius:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+#counter{font-size:6rem;color:var(--g);font-weight:bold}
+.finale h1{font-size:8rem;color:var(--g)}
